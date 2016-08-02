@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="app">
+<head>
+    <title>Expenses</title>
+    <!-- inject:bootstrap:css -->
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+    <!-- endinject -->
+    <style>
+        body {
+            margin: 4em 0 0 1em;
+        }
+    </style>
+</head>
+<body>
+<div ng-include="'app/layout/topNav.html'"></div>
+<div>
+    <div ng-view></div>
+</div>
+<!-- inject:angular:js -->
+<script src="lib/angular/angular.min.js"></script>
+<!-- endinject -->
+<!-- inject:angular-route:js -->
+<script src="lib/angular-route/angular-route.min.js"></script>
+<!-- endinject -->
+<!-- inject:module:js -->
+<script src="app/app.module.js"></script>
+<!-- endinject -->
+<!-- inject:components:js -->
+<script src="app/expensesDataService.js"></script>
+<script src="app/Expense/ExpenseItem.js"></script>
+<script src="app/Expense/expensesController.js"></script>
+<!-- endinject -->
+</body>
+</html>
