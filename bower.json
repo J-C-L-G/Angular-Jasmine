@@ -1,0 +1,27 @@
+{
+  "name": "ExpenseReporter",
+  "authors": [
+    "J-C-L-G <ps_jclg@hotmail.com>"
+  ],
+  "description": "Testing AngularJS with Jasmine",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jasmine-core": "jasmine#~2.4.1",
+    "bootstrap": "~3.3.7",
+    "angular": "~1.5.8",
+    "angular-route": "~1.5.8"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.5.8"
+  }
+}
